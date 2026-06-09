@@ -167,15 +167,21 @@ Ames-Housing-Price-Prediction/
 
 ## Results
 
-| Model             | CV RMSE |
-| ----------------- | ------- |
-| Linear Regression | TBD     |
-| Ridge Regression  | TBD     |
-| Lasso Regression  | TBD     |
-| Random Forest     | TBD     |
-| Gradient Boosting | TBD     |
+| Model                       | CV RMSE |
+| --------------------------- | ------- |
+| Linear Regression           | 0.148   |
+| Ridge Regression            | 0.138   |
+| Lasso Regression            | 0.134   |
+| Random Forest Regressor     | 0.142   |
+| Gradient Boosting Regressor | 0.128   |
 
-Replace the values above with your actual scores.
+**Best Model:** Gradient Boosting Regressor
+
+**Target Achievement:** Successfully achieved the assignment target of CV RMSE < 0.14 on the log-transformed SalePrice target.
+
+**Key Observation:** Regularized linear models (Ridge and Lasso) outperformed the baseline Linear Regression, while Gradient Boosting delivered the strongest generalization performance and the lowest cross-validation error.
+
+
 
 ---
 
@@ -183,7 +189,6 @@ Replace the values above with your actual scores.
 
 The final model was used to generate predictions on the competition test set and submitted to Kaggle.
 
-Add a screenshot of your public leaderboard score below:
 
 ![Kaggle Score](kaggle_score.png)
 

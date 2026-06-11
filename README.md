@@ -190,7 +190,7 @@ Ames-Housing-Price-Prediction/
 The final model was used to generate predictions on the competition test set and submitted to Kaggle.
 
 
-![Kaggle Score](kaggle_score.png)
+![Kaggle Score](Kaggle_score.png)
 
 ---
 
